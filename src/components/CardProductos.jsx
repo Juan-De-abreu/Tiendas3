@@ -45,7 +45,7 @@ const CardProductos = ({ item }) => {
                     <p className="fs-6 text-danger fw-bold">Precio: {formatCurrency(item.price)}$</p>
                 </div>
                 <div className="card-footer text-center">
-                    <a href="#" className="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target={`#${item.id}`}>Modal</a>
+                    <a href="#" className="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target={`#modal${item.id}`}>Modal</a>
                     <Link to={`/detalle/${item.id}/${item.title}`} href="#" className="btn btn-info btn-sm" >Detalle</Link>
                     <hr />
                     <div className="d-flex justify-content-center">

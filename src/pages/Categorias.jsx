@@ -55,7 +55,7 @@ const Categorias = () => {
         
 
 
-        <div className="row justify-content-center animate__animated animate__fadeInLeftBig">
+        <div className="row justify-content-center animate__animated animate__wobble">
                 {datos.map((item) => (
                     <CardProductos key={item.id} item={item} />
                 ))}
